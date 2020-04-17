@@ -2,6 +2,15 @@ Finance Data Project
 In this data project we will focus on exploratory data analysis of stock prices. Keep in mind, this project is just meant to practice your visualization and pandas skills, it is not meant to be a robust financial analysis or be taken as financial advice.
 
 We'll focus on bank stocks and see how they progressed throughout the financial crisis all the way to early 2016.
-Get the Data
-In this section we will learn how to use pandas to directly read data from Google finance using pandas!
-First we need to start with the proper imports, which we've already laid out for you here.
+Get the Data using pandas data reader for banks like 
+
+Bank of America
+CitiGroup
+Goldman Sachs
+JPMorgan Chase
+Morgan Stanley
+Wells Fargo
+
+How to get the data
+# Bank of America
+BAC = data.DataReader("BAC", 'yahoo', start, end)
