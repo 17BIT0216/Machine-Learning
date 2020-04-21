@@ -1,4 +1,4 @@
-Uses a Logistic regression model to predict, based on the features of the customers whether they will click on the Advertisement or not. Implentation of sklearna and evaluation of the result using a confusion matrix and check of accuracy precision using the classification report module. 
+Uses a Logistic regression model to predict, based on the features of the customers whether they will click on the Advertisement or not. Implentation of sklearna and evaluation of the result using a confusion matrix and check of accuracy precision using the classification report module. Here is the over view
 
       precision    recall  f1-score   support
 
