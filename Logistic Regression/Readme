@@ -1,0 +1,10 @@
+Uses a Logistic regression model to predict, based on the features of the customers whether they will click on the Advertisement or not. Implentation of sklearna and evaluation of the result using a confusion matrix and check of accuracy precision using the classification report module. I was able to reach an acuracy of 88% for the person will click and an accuracy of 89% that he will not click.
+
+      precision    recall  f1-score   support
+
+           0       0.93      0.83      0.87       143
+           1       0.80      0.92      0.85       107
+
+    accuracy                           0.86       250
+   macro avg       0.86      0.87      0.86       250
+weighted avg       0.87      0.86      0.86       250
