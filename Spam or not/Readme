@@ -8,3 +8,5 @@ text to some meaningful vector we do that by using CountVectorizer which convert
 But, before that we have to preprocess our data--> remove punctuations and most commonly occuring word, then transfom it using
 a CountVectorizer. But this Data does not have any relation so we use a TF-idf to find a relation between the data and
 then use MultiNomialNB to predict the result.
+
+We reach an accuracy of 96%
