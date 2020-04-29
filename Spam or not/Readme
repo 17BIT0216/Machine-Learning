@@ -1,0 +1,10 @@
+Requirements:
+You will need to have NLTK installed, and then download the stopwords from string library.
+
+
+So, we have a data set of messages and using this data sets we have to decide whether a message is spam or not.
+The first roadblock is we dont have any numeric data to feed to the ML alogorithms so what we do is use NLP to convert the 
+text to some meaningful vector we do that by using CountVectorizer which converts the text into a multi dimensional vector.
+But, before that we have to preprocess our data--> remove punctuations and most commonly occuring word, then transfom it using
+a CountVectorizer. But this Data does not have any relation so we use a TF-idf to find a relation between the data and
+then use MultiNomialNB to predict the result.
