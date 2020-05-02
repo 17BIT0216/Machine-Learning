@@ -1,0 +1,21 @@
+ The data is from LendingClub.com,and is present in the project by the name of loan_data.csv.
+ Lending Club connects people who need money (borrowers) with people who have money (investors). Hopefully, as an investor you would want to invest in people who showed a profile of having a high probability of paying you back. We will try to create a model that will help predict this.
+ 
+ The Following feautures are present in the given data set:
+
+credit.policy        9578 non-null int64
+purpose              9578 non-null object
+int.rate             9578 non-null float64
+installment          9578 non-null float64
+log.annual.inc       9578 non-null float64
+dti                  9578 non-null float64
+fico                 9578 non-null int64
+days.with.cr.line    9578 non-null float64
+revol.bal            9578 non-null int64
+revol.util           9578 non-null float64
+inq.last.6mths       9578 non-null int64
+delinq.2yrs          9578 non-null int64
+pub.rec              9578 non-null int64
+not.fully.paid       9578 non-null int64
+
+We classified the data in terms not.fully.paid       .
