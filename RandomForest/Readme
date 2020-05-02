@@ -18,4 +18,10 @@ delinq.2yrs          9578 non-null int64
 pub.rec              9578 non-null int64
 not.fully.paid       9578 non-null int64
 
-We classified the data in terms not.fully.paid       .
+We classified the data in terms not.fully.paid .
+
+
+What is FICO score?
+A FICO credit score is a credit score developed by FICO, a company that specializes in what’s known as “predictive analytics,” which means they take information and analyze it to predict what’s likely to happen.
+
+In the case of credit scores, FICO looks at a range of credit information and uses that to create scores that help lenders predict consumer behavior, such as how likely someone is to pay their bills on time (or not), or whether they are able to handle a larger credit line.
